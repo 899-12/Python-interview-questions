@@ -1,0 +1,8 @@
+# Counting vowels in a string
+word="Programming"
+vowel=["a","e","i","o","u"]
+count=0
+for character in word:
+  if character in vowel:
+    count=count+1
+print(count)
